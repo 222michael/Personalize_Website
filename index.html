@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+ 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+</head>
+<body>
+ 
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkmode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Michael Caldo</h1>
+            <p>A passionate software developer with experience in building responsive websites, mobile applications, and innovative solutions. I specialize in web development, UI/UX design, and integrating cutting-edge technologies to deliver exceptional results.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/caldo.michael.2024/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/caldssss/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/222michael" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/michael-caldo-610409377/" target="blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="caldo_CV.pdf" class="btn" download="caldo_CV">Download CV</a>
+        </div>
+        <div class="profession-container">
+          <div class="profession-box">
+            <div class="profession" style="--i:0;">
+              <i class='bx bx-code-alt'></i>
+              <h3>Web Developer</h3>
+            </div>
+            <div class="profession" style="--i:1;">
+              <i class='bx bx-code-alt'></i>
+              <h3>Software Developer</h3>
+            </div>
+            <div class="profession" style="--i:2;">
+              <i class='bx bx-code-alt'></i>
+              <h3>Web Designer</h3>
+            </div>
+            <div class="profession" style="--i:3;">
+              <i class='bx bx-code-alt'></i>
+              <h3>Mobile Developer</h3>
+            </div>
+            <div class="circle"></div>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>About Me</h3>
+            <p>
+                Hi, I'm Michael Caldo, a Junior Software Developer Intern with experience in creating innovative solutions such as chatbots, mobile applications, and augmented reality projects. I specialize in web development, mobile app development, and software development, focusing on delivering scalable and efficient solutions tailored to client needs.
+            </p>
+            <p>
+                My recent projects include developing a responsive weather application, a portfolio website, and an augmented reality app for educational purposes. I am passionate about leveraging technology to solve real-world problems and continuously improving my skills to stay ahead in the tech industry.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+ 
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I create responsive and visually appealing websites tailored to meet your business needs, ensuring seamless user experiences and modern designs.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>Mobile Development</h3>
+                <p>Developing intuitive and feature-rich mobile applications for Android and iOS platforms, designed to enhance user engagement and functionality.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Software Development</h3>
+                <p>Building scalable and efficient software solutions to streamline processes, improve productivity, and meet your unique requirements.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/WeatherApp.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather App</h4>
+                    <p>A responsive web application that fetches real-time weather data using a public API. Features include city search, current weather display, and a user-friendly interface for both desktop and mobile.</p>
+                    <a target="_blank" href="https://weather-app-kappa-five-61.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Digital_clock.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Digital clock</h4>
+                    <p>An elegant digital clock application that displays the current time in real-time. Designed with modern aesthetics and optimized for performance.</p>
+                    <a target="_blank" href="https://digital-watch-delta-seven.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Drag_drop.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Drag and Drop</h4>
+                    <p>An interactive drag-and-drop application that allows users to organize items visually. Built with JavaScript for smooth functionality and responsive design.</p>
+                    <a target="_blank" href="https://drag-and-drop-mu-one.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contact-form">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" id="from_name" name="from_name" placeholder="Full Name" required>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email_id" name="email_id" placeholder="Email Address" required>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" id="phone" name="phone" placeholder="Mobile Number" required>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="subject" name="subject" placeholder="Email Subject" required>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+            <div id="success-message" style="display: none; color: green; margin-top: 15px; text-align: center;">
+                Your message has been sent successfully!
+            </div>
+            <div id="error-message" style="display: none; color: red; margin-top: 15px; text-align: center;">
+                There was an error sending your message. Please try again later.
+            </div>
+        </form>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Michael | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+   
+    <div class="chatbot-container">
+        <div class="chatbot-icon" id="chatbot-icon">
+            <i class='bx bx-message-rounded-dots'></i>
+        </div>
+        <div class="chatbot-box" id="chatbot-box">
+            <div class="chatbot-header">
+                <h3>Chat Bot</h3>
+                <div class="close-btn" id="close-chat">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+               
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user-message" placeholder="Type your message here...">
+                <button id="send-message">
+                    <i class='bx bx-send'></i>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
